@@ -1,0 +1,48 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp">
+
+    <com.tutorialsbuzz.twitterthreadrecyclerview.CircleImageView
+            android:id="@+id/comment_profile_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circular_draw"
+            android:padding="5dp"
+            android:src="@drawable/user_dp" />
+
+    <TextView
+            android:id="@+id/comment_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/comment_profile_pic"
+            android:text="UserName" />
+
+    <TextView
+            android:id="@+id/commentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/comment_username"
+            android:text=". 7 hours ago" />
+
+    <TextView
+            android:id="@+id/commentDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/comment_username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/comment_profile_pic"
+            android:text="Comments Comments"
+            android:textColor="@android:color/black" />
+
+
+</RelativeLayout>
+

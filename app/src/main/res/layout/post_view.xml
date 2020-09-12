@@ -1,0 +1,79 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    <com.tutorialsbuzz.twitterthreadrecyclerview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/profile_pic"
+            android:src="@mipmap/ic_launcher"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Name"
+              android:id="@+id/userName"
+              android:layout_marginLeft="10dp"
+              android:textColor="@android:color/black"
+              android:layout_toEndOf="@+id/profile_pic"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="12 hours ago"
+              android:layout_toEndOf="@+id/profile_pic"
+              android:layout_marginLeft="10dp"
+              android:id="@+id/post_time"
+              android:layout_below="@+id/userName"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="New Profile Pic"
+              android:padding="8dp"
+              android:textColor="@android:color/black"
+              android:id="@+id/post_description"
+              android:layout_below="@+id/profile_pic"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="270dp"
+               android:layout_below="@+id/post_description"
+               android:id="@+id/post_img"
+               android:background="#e5e5e5"
+               android:padding="10dp"
+               android:contentDescription="@string/app_name"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:layout_below="@+id/post_img"
+              android:text="Comments 44"
+              android:textColor="@android:color/black"
+              android:id="@+id/commentLabel"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:layout_below="@+id/commentLabel">
+
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:hint="Add Comment"
+                  android:id="@+id/comment_box"/>
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/addComment"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_send_black_24dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

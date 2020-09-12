@@ -1,0 +1,80 @@
+{
+  "postInfo": {
+    "userName": "Pawan",
+    "postTime": "10 hours ago",
+    "postDescription": "Post Description",
+    "postImage": "user_dp"
+  },
+  "comments": [
+    {
+      "userName": "cupcake",
+      "postTime": "9 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content."
+    },
+    {
+      "userName": "donut",
+      "postTime": "8 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "eclairs",
+      "postTime": "8 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "froyo",
+      "postTime": "7 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "gingerbread",
+      "postTime": "7 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "honeycomb",
+      "postTime": "6 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "icecream",
+      "postTime": "6 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "jellybean",
+      "postTime": "5 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "kitkat",
+      "postTime": "5 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "lollipop",
+      "postTime": "5 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "marshmallow",
+      "postTime": "4 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "nougat",
+      "postTime": "4 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "oreo",
+      "postTime": "3 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    },
+    {
+      "userName": "pie",
+      "postTime": "2 hour ago",
+      "comment": "The comments section is a feature of online blogs and news websites in which the publishers invite the audience to comment on the published content. "
+    }
+  ]
+}
